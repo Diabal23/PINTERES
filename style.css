@@ -83,6 +83,7 @@ INICIO FOTOS PIN*/
 .container{
     height: 100vh; 
     display: grid;
+    margin-top: 72px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 10px;
