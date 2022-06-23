@@ -3,6 +3,7 @@ body{
     margin: 0px;
     display: flex;
     width: 100%;
+
 }
 /* BARRA SUPERIOR */
 .nav {
@@ -21,10 +22,12 @@ body{
 .logo {
     height: 40px;
     }
+
 b{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
 }
+
 .inicio{
     border-radius: 50px;
     margin: 5px 10px;
@@ -32,7 +35,8 @@ b{
     padding: 16px;
     background-color: black;
     color: white;
-}   
+}
+    
 input {
     /* border: 1px solid rgb(191, 191, 191); */
     border: 1px solid rgb(0, 0, 0);
@@ -50,6 +54,7 @@ input {
     width: 230px;
     opacity: .3;
 }
+
 .barra_nav {
     border-radius: 50px;
     border-color: gray;
@@ -58,13 +63,16 @@ input {
     margin-top: 5px;
     margin-left: 15px;
 }
+
 img{
     height: 35px;
     border-radius: 50px;
     /* background-color: transparent; */
     margin-left: 6px;
-    margin-right: 6px;   
+    margin-right: 6px;
+    
 }
+
 .lilly{
     height: 40px;
     border-radius: 50px;
@@ -73,17 +81,18 @@ img{
 .opciones{
     height: 20px;
     margin-bottom: 10px;
+
 }
+
 .brightness img:hover {
     opacity: .6;
 }
 /*FIN BARRA NAVEGACIÓN
-
 INICIO FOTOS PIN*/
 .container{
     height: 100vh; 
     display: grid;
-    margin-top: 72px;
+    margin-top: 100px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 10px;
@@ -96,6 +105,11 @@ INICIO FOTOS PIN*/
     "pin21 pin22 pin18 pin24 pin19 pin16 pin27"
     "pin28 pin22 pin23 pin24 pin25 pin26 pin20";
 }
+.link{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin{
     border: 1px solid black;
     border-radius: 5px;
@@ -106,7 +120,11 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin1;
 }
-
+.link2{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin2{
     background-image: url(https://images.unsplash.com/photo-1553610074-8c838fa2e56e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FsYXZlcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     background-position: center;
@@ -124,11 +142,21 @@ INICIO FOTOS PIN*/
     opacity: 0.8;
     background-color: black;
 }
+.link3{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin3{
     background-image: url(https://images.unsplash.com/photo-1543946207-39bd91e70ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FsYXZlcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin3;
+}
+.link4{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin4{
     background-image: url(https://images.unsplash.com/photo-1633612833438-eef0fe314c9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnJ1amFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
@@ -136,11 +164,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin4;
 }
+.link5{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin5{
     background-image: url(https://images.unsplash.com/photo-1617342400772-076718c78436?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJydWphc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin5;
+}
+.link6{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin6{
     background-image: url(https://images.unsplash.com/photo-1508610048659-a06b669e3321?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZmxvcmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
@@ -148,11 +186,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin6;
 }
+.link7{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin7{
     background-image: url(https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin7;
+}
+.link8{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin8{
     background-image: url(https://images.unsplash.com/photo-1568572933382-74d440642117?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVycm9zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
@@ -160,11 +208,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin8;
 }
+.link9{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin9{
     background-image: url(https://images.unsplash.com/photo-1585834015161-f7133c93d74b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2FuZ3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin9;
+}
+.link10{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin10{
     background-image: url(https://images.unsplash.com/photo-1568065219398-8f9c0bde728d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNhbmdyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -172,11 +230,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin10;
 }
+.link11{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin11{
     background-image: url(https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9zcXVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin11;
+}
+.link12{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin12{
     background-image: url(https://images.unsplash.com/photo-1508193638397-1c4234db14d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJvc3F1ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -184,11 +252,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin12;
 }
+.link13{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin13{
     background-image: url(https://images.unsplash.com/photo-1529485726363-95c8d62f656f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnVkYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin13;
+}
+.link14{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin14{
     background-image: url(https://images.unsplash.com/photo-1631949136465-af801b6c5244?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YnVkYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -196,11 +274,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin14;
 }
+.link15{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin15{
     background-image: url(https://images.unsplash.com/photo-1614882914068-3b235f59cb38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a2F0YW5hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin15;
+}
+.link16{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin16{
     background-image: url(https://images.unsplash.com/photo-1565231043255-f87510641096?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8a2F0YW5hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -208,11 +296,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin16;
 }
+.link17{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin17{
     background-image: url(https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmVvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin17;
+}
+.link18{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin18{
     background-image: url(https://images.unsplash.com/photo-1501186758051-167ca3c0fde8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bGx1dmlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
@@ -220,11 +318,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin18;
 }
+.link19{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin19{
     background-image: url(https://images.unsplash.com/photo-1503435824048-a799a3a84bf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGx1dmlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin19;
+}
+.link20{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin20{
     background-image: url(https://images.unsplash.com/photo-1476044591369-74ee6ac6899c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxsdXZpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -232,11 +340,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin20;
 }
+.link21{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin21{
     background-image: url(https://images.unsplash.com/photo-1579033461380-adb47c3eb938?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXVyb3JhJTIwYm9yZWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin21;
+}
+.link22{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin22{
     background-image: url(https://images.unsplash.com/photo-1430132594682-16e1185b17c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGF1cm9yYSUyMGJvcmVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -244,11 +362,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin22;
 }
+.link23{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin23{
     background-image: url(https://images.unsplash.com/photo-1610620746460-de78cf3d1705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGF1cm9yYSUyMGJvcmVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin23;
+}
+.link24{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin24{
     background-image: url(https://images.unsplash.com/photo-1565284599824-cc060f468123?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdGl2b3MlMjBhbWVyaWNhbm9zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
@@ -256,11 +384,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin24;
 }
+.link25{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin25{
     background-image: url(https://images.unsplash.com/photo-1525198104776-f6e8a873f9b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGt1bmclMjBmdXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin25;
+}
+.link26{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin26{
     background-image: url(https://media.istockphoto.com/photos/-picture-id483791442?b=1&k=20&m=483791442&s=170667a&w=0&h=1u7EMSgEkdF58hXCucpk6iHld_d1zkSMiftK0L4SYn8=);
@@ -268,11 +406,21 @@ INICIO FOTOS PIN*/
     background-size: cover;
     grid-area: pin26;
 }
+.link27{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
+}
 .pin27{
     background-image: url(https://images.unsplash.com/photo-1545537619-3b5475acd977?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lZHVzYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     grid-area: pin27;
+}
+.link28{
+    text-align:center;
+    font-size: xx-large;
+    color: transparent;
 }
 .pin28{
     background-image: url(https://images.unsplash.com/photo-1580696148878-d246a14ab86d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGFnYXJ0b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -281,21 +429,3 @@ INICIO FOTOS PIN*/
     grid-area: pin28;
 }
 /* FIN FOTOS PIN*/
-
-/* INICIO BOTON DE PREGUNTAS */
-.boton_preguntas{
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    bottom: 0;
-    z-index: 2;
-    width: 100%;
-    height: auto;  
-}
-#preguntas{
-    height: 40px;
-    border-radius: 50px;
-    margin-right: 18px;
-    margin-bottom: 18px;
-}
-/* FIN BOTON DE PREGUNTAS */
